@@ -1157,8 +1157,9 @@
     }
 
     // 调料清单条目渲染：盐/油 用「勺/喷」直观展示用量
-    const SALT_PER_SPOON = 2;  // 1勺盐 ≈ 2g
-    const OIL_PER_SPRAY = 1;   // 1喷油 ≈ 1ml
+    const SALT_PER_SPOON = 2;   // 1勺盐 ≈ 2g（小勺/盐勺）
+    const OIL_PER_SPRAY = 1;    // 1喷油 ≈ 1ml
+    const OIL_PER_SPOON = 15;   // 1大勺油 ≈ 15ml（汤勺，与盐勺区分）
 
     function renderSeasoningItem(s) {
         if (s.name === '盐' && s.unit === 'g') {
@@ -1173,6 +1174,18 @@
             </li>`;
         }
         if ((s.name === '食用油' || s.name === '油') && s.unit === 'ml') {
+            // 用油量较大（≥15ml）时改用「大勺」计量，不用「喷」
+            if (s.amount >= OIL_PER_SPOON) {
+                const n = s.amount / OIL_PER_SPOON;
+                const val = Number.isInteger(n) ? String(n) : n.toFixed(1);
+                return `<li class="season-item">
+                    <span class="season-left">🧴 食用油：${s.amount}${s.unit}</span>
+                    <span class="season-right">
+                        <span class="unit-badge oil-badge">🥄 ${val} 大勺</span>
+                        <span class="unit-note">1大勺≈15ml</span>
+                    </span>
+                </li>`;
+            }
             const n = s.amount / OIL_PER_SPRAY;
             const val = Number.isInteger(n) ? String(n) : n.toFixed(1);
             return `<li class="season-item">
