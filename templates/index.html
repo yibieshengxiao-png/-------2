@@ -424,17 +424,6 @@
                 </div>
             </div>
 
-            <div class="selected-list" id="selectedList">
-                <div class="empty-state" id="emptySelected">
-                    <div class="icon">🛒</div>
-                    <div class="msg">点击上方食材，把你手头的食材选出来！</div>
-                </div>
-            </div>
-            <div class="flex-between" id="selectedActions" style="display:none;">
-                <button class="btn-clear" onclick="clearAll()">🗑 一键清空</button>
-                <span style="font-size:0.85em;color:var(--text-light);" id="selectedCount"></span>
-            </div>
-
             <div style="display:flex;gap:12px;align-items:center;margin-top:12px;flex-wrap:wrap;">
                 <div style="display:flex;align-items:center;gap:6px;background:white;border:2px solid var(--border);border-radius:var(--radius-sm);padding:8px 14px;">
                     <span style="font-size:0.9em;color:var(--text-light);">👤</span>
@@ -456,6 +445,7 @@
                     </select>
                 </div>
                 <span style="font-size:0.85em;color:var(--text-light);" id="servingLabel">共 2 人份</span>
+                <button class="btn-clear" id="clearBtn" onclick="clearAll()" style="display:none;margin-left:auto;">🗑 清空已选</button>
             </div>
             <button class="btn-generate" onclick="generateRecipes()">✨ 生成食谱</button>
             <div class="text-center text-small mt-8">已选食材越丰富，生成的食谱越多哦</div>
@@ -824,28 +814,10 @@
     }
 
     function updateSelectedList() {
-        const list = document.getElementById('selectedList');
-        const actions = document.getElementById('selectedActions');
-        const countEl = document.getElementById('selectedCount');
-        const entries = Object.entries(selectedIngredients);
-
-        if (entries.length === 0) {
-            list.innerHTML = '<div class="empty-state" id="emptySelected"><div class="icon">🛒</div><div class="msg">点击上方食材，把你手头的食材选出来！</div></div>';
-            actions.style.display = 'none';
-        } else {
-            countEl.textContent = `共 ${entries.length} 种食材`;
-            actions.style.display = '';
-            list.innerHTML = entries.map(([id, sel]) => `
-            <div class="selected-item">
-                ${renderIcon(sel.ingredient, 'small-icon')}
-                <div class="info">
-                    <div class="name">${sel.ingredient.name}</div>
-                    <div class="amount">${sel.amount}${sel.ingredient.unit}</div>
-                </div>
-                <button class="btn-sm btn-edit" onclick="editAmount('${id}')">修改</button>
-                <button class="btn-sm btn-del" onclick="removeIngredient('${id}')">删除</button>
-            </div>`).join('');
-        }
+        // 购物车列表已移除，仅更新「清空已选」按钮的显示状态
+        const entries = Object.keys(selectedIngredients).length;
+        const clearBtn = document.getElementById('clearBtn');
+        if (clearBtn) clearBtn.style.display = entries > 0 ? '' : 'none';
     }
 
     function editAmount(id) {
