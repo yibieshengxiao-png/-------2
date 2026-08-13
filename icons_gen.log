@@ -1,0 +1,162 @@
+解析到: 食材 56 个, 食谱 100 个, 共 156 个
+待生成: 148 个 (已有 8 个)
+[OK] ing_v006.png (白菜) 剩余147
+[OK] ing_v007.png (黄瓜) 剩余146
+[OK] ing_v008.png (茄子) 剩余145
+[OK] ing_v009.png (洋葱) 剩余144
+[OK] ing_v010.png (大蒜) 剩余143
+[OK] ing_v011.png (生姜) 剩余142
+[OK] ing_v012.png (葱) 剩余141
+[OK] ing_v013.png (西兰花) 剩余140
+[OK] ing_v014.png (菠菜) 剩余139
+[OK] ing_v015.png (四季豆) 剩余138
+[OK] ing_v019.png (生菜) 剩余137
+[OK] ing_v020.png (玉米) 剩余136
+[OK] ing_v021.png (冬瓜) 剩余135
+[OK] ing_v022.png (南瓜) 剩余134
+[OK] ing_v023.png (苦瓜) 剩余133
+[OK] ing_v024.png (莲藕) 剩余132
+[OK] ing_v025.png (蘑菇) 剩余131
+[OK] ing_v026.png (木耳) 剩余130
+[OK] ing_v027.png (西葫芦) 剩余129
+[OK] ing_v028.png (蒜苔) 剩余128
+[OK] ing_m001.png (猪肉) 剩余127
+[FAIL] m002 猪里脊: HTTP Error 400: Bad Request
+[FAIL] m003 五花肉: HTTP Error 429: Too Many Requests
+[FAIL] m004 排骨: HTTP Error 400: Bad Request
+[FAIL] m005 鸡胸肉: HTTP Error 429: Too Many Requests
+[FAIL] m006 鸡腿: HTTP Error 400: Bad Request
+[FAIL] m007 鸡翅: HTTP Error 429: Too Many Requests
+[FAIL] m008 鸡蛋: HTTP Error 400: Bad Request
+[OK] ing_m009.png (牛肉) 剩余119
+[OK] ing_m010.png (牛腩) 剩余118
+[OK] ing_m011.png (虾仁) 剩余117
+[OK] ing_m012.png (鱼) 剩余116
+[OK] ing_m013.png (虾) 剩余115
+[OK] ing_m014.png (蛤蜊) 剩余114
+[OK] ing_m015.png (火腿肠) 剩余113
+[OK] ing_d001.png (豆腐) 剩余112
+[OK] ing_d002.png (老豆腐) 剩余111
+[OK] ing_d003.png (嫩豆腐) 剩余110
+[OK] ing_d004.png (豆皮) 剩余109
+[OK] ing_d005.png (豆干) 剩余108
+[OK] ing_d006.png (腐竹) 剩余107
+[OK] ing_d007.png (皮蛋) 剩余106
+[OK] ing_s001.png (大米) 剩余105
+[OK] ing_s002.png (面条) 剩余104
+[OK] ing_s003.png (面粉) 剩余103
+[OK] ing_s004.png (馒头) 剩余102
+[OK] ing_s005.png (粉丝) 剩余101
+[OK] ing_s006.png (面包) 剩余100
+[OK] recipe_p001.png (青椒炒肉) 剩余99
+[OK] recipe_p002.png (鱼香肉丝) 剩余98
+[OK] recipe_p003.png (回锅肉) 剩余97
+[OK] recipe_p004.png (红烧肉) 剩余96
+[OK] recipe_p005.png (糖醋里脊) 剩余95
+[OK] recipe_p006.png (肉末茄子) 剩余94
+[OK] recipe_p007.png (木须肉) 剩余93
+[OK] recipe_p008.png (蒜苔炒肉) 剩余92
+[OK] recipe_p009.png (小炒肉) 剩余91
+[OK] recipe_p010.png (红烧排骨) 剩余90
+[FAIL] p011 锅包肉: HTTP Error 400: Bad Request
+[OK] recipe_p012.png (粉蒸肉) 剩余88
+[FAIL] c001 宫保鸡丁: HTTP Error 400: Bad Request
+[FAIL] c002 红烧鸡块: HTTP Error 400: Bad Request
+[FAIL] c003 口水鸡: HTTP Error 400: Bad Request
+[FAIL] c004 黄焖鸡: HTTP Error 400: Bad Request
+[OK] recipe_c005.png (可乐鸡翅) 剩余83
+[OK] recipe_c006.png (辣子鸡) 剩余82
+[OK] recipe_c007.png (蒜香鸡胸肉) 剩余81
+[OK] recipe_c008.png (咖喱鸡) 剩余80
+[OK] recipe_c009.png (葱油鸡) 剩余79
+[OK] recipe_c010.png (香菇滑鸡) 剩余78
+[OK] recipe_c011.png (鸡肉炖蘑菇) 剩余77
+[OK] recipe_c012.png (盐焗鸡) 剩余76
+[OK] recipe_e001.png (番茄炒蛋) 剩余75
+[OK] recipe_e002.png (青椒炒蛋) 剩余74
+[OK] recipe_e003.png (韭菜炒蛋) 剩余73
+[OK] recipe_e004.png (洋葱炒蛋) 剩余72
+[OK] recipe_e005.png (蒸蛋羹) 剩余71
+[OK] recipe_e006.png (蛋花汤) 剩余70
+[OK] recipe_e007.png (苦瓜炒蛋) 剩余69
+[OK] recipe_e008.png (虾仁滑蛋) 剩余68
+[OK] recipe_e009.png (蛋炒饭) 剩余67
+[OK] recipe_b001.png (青椒牛柳) 剩余66
+[OK] recipe_b002.png (红烧牛肉) 剩余65
+[OK] recipe_b003.png (番茄牛腩) 剩余64
+[OK] recipe_b004.png (水煮牛肉) 剩余63
+[OK] recipe_b005.png (土豆烧牛肉) 剩余62
+[OK] recipe_b006.png (孜然牛肉) 剩余61
+[OK] recipe_b007.png (蒜香牛排) 剩余60
+[OK] recipe_b008.png (牛肉炒面) 剩余59
+[OK] recipe_f001.png (清蒸鱼) 剩余58
+[OK] recipe_f002.png (红烧鱼) 剩余57
+[OK] recipe_f003.png (糖醋鱼) 剩余56
+[OK] recipe_f004.png (蒜蓉虾) 剩余55
+[OK] recipe_f005.png (白灼虾) 剩余54
+[OK] recipe_f006.png (炒蛤蜊) 剩余53
+[OK] recipe_f007.png (水煮鱼片) 剩余52
+[OK] recipe_f008.png (番茄虾仁) 剩余51
+[OK] recipe_t001.png (麻婆豆腐) 剩余50
+[OK] recipe_t002.png (家常豆腐) 剩余49
+[OK] recipe_t003.png (凉拌豆腐) 剩余48
+[OK] recipe_t004.png (皮蛋豆腐) 剩余47
+[OK] recipe_t005.png (豆腐汤) 剩余46
+[OK] recipe_t006.png (红烧豆腐) 剩余45
+[OK] recipe_t007.png (锅塌豆腐) 剩余44
+[OK] recipe_t008.png (鱼香豆腐) 剩余43
+[OK] recipe_t009.png (白菜豆腐) 剩余42
+[OK] recipe_t010.png (葱烧豆腐) 剩余41
+[OK] recipe_g001.png (蒜蓉西兰花) 剩余40
+[OK] recipe_g002.png (干煸四季豆) 剩余39
+[OK] recipe_g003.png (醋溜白菜) 剩余38
+[OK] recipe_g004.png (地三鲜) 剩余37
+[OK] recipe_g005.png (酸辣土豆丝) 剩余36
+[OK] recipe_g006.png (凉拌黄瓜) 剩余35
+[OK] recipe_g007.png (蒜蓉菠菜) 剩余34
+[OK] recipe_g008.png (炒豆芽) 剩余33
+[OK] recipe_g009.png (清炒时蔬) 剩余32
+[OK] recipe_g010.png (番茄炒菜花) 剩余31
+[OK] recipe_g011.png (香菇青菜) 剩余30
+[OK] recipe_g012.png (炒土豆丝) 剩余29
+[OK] recipe_n001.png (番茄鸡蛋面) 剩余28
+[OK] recipe_n002.png (青椒肉丝炒饭) 剩余27
+[OK] recipe_n003.png (炸酱面) 剩余26
+[OK] recipe_n004.png (炒面) 剩余25
+[OK] recipe_n005.png (盖浇饭) 剩余24
+[OK] recipe_n006.png (鸡蛋煎饼) 剩余23
+[OK] recipe_n007.png (疙瘩汤) 剩余22
+[OK] recipe_n008.png (葱油拌面) 剩余21
+[OK] recipe_s001.png (紫菜蛋花汤) 剩余20
+[OK] recipe_s002.png (冬瓜排骨汤) 剩余19
+[OK] recipe_s003.png (白菜豆腐汤) 剩余18
+[OK] recipe_s004.png (酸辣汤) 剩余17
+[OK] recipe_s005.png (玉米排骨汤) 剩余16
+[OK] recipe_s006.png (番茄蛋汤) 剩余15
+[OK] recipe_l001.png (凉拌木耳) 剩余14
+[OK] recipe_l002.png (糖拌番茄) 剩余13
+[OK] recipe_l003.png (拍黄瓜) 剩余12
+[FAIL] l004 蒜泥白肉: HTTP Error 400: Bad Request
+[FAIL] x001 土豆烧豆角: HTTP Error 400: Bad Request
+[FAIL] x002 糖醋排骨: HTTP Error 400: Bad Request
+[FAIL] x003 洋葱炒肉: HTTP Error 429: Too Many Requests
+[FAIL] x004 芹菜炒肉: HTTP Error 400: Bad Request
+[FAIL] x005 红烧鸡腿: HTTP Error 429: Too Many Requests
+[FAIL] x006 素炒西葫芦: HTTP Error 400: Bad Request
+[FAIL] x007 番茄豆腐汤: HTTP Error 429: Too Many Requests
+[FAIL] x008 火腿炒蛋: HTTP Error 400: Bad Request
+[FAIL] x009 胡萝卜炒蛋: HTTP Error 429: Too Many Requests
+[FAIL] x010 蒜蓉蒸茄子: HTTP Error 400: Bad Request
+[FAIL] x011 红烧冬瓜: HTTP Error 400: Bad Request
+
+完成: 成功 124, 失败 24
+  FAILED: m002 猪里脊: HTTP Error 400: Bad Request
+  FAILED: m003 五花肉: HTTP Error 429: Too Many Requests
+  FAILED: m004 排骨: HTTP Error 400: Bad Request
+  FAILED: m005 鸡胸肉: HTTP Error 429: Too Many Requests
+  FAILED: m006 鸡腿: HTTP Error 400: Bad Request
+  FAILED: m007 鸡翅: HTTP Error 429: Too Many Requests
+  FAILED: m008 鸡蛋: HTTP Error 400: Bad Request
+  FAILED: p011 锅包肉: HTTP Error 400: Bad Request
+  FAILED: c001 宫保鸡丁: HTTP Error 400: Bad Request
+  FAILED: c002 红烧鸡块: HTTP Error 400: Bad Request

@@ -1,0 +1,24 @@
+m002	猪里脊	HTTP Error 400: Bad Request
+m003	五花肉	HTTP Error 429: Too Many Requests
+m004	排骨	HTTP Error 400: Bad Request
+m005	鸡胸肉	HTTP Error 429: Too Many Requests
+m006	鸡腿	HTTP Error 400: Bad Request
+m007	鸡翅	HTTP Error 429: Too Many Requests
+m008	鸡蛋	HTTP Error 400: Bad Request
+p011	锅包肉	HTTP Error 400: Bad Request
+c001	宫保鸡丁	HTTP Error 400: Bad Request
+c002	红烧鸡块	HTTP Error 400: Bad Request
+c003	口水鸡	HTTP Error 400: Bad Request
+c004	黄焖鸡	HTTP Error 400: Bad Request
+l004	蒜泥白肉	HTTP Error 400: Bad Request
+x001	土豆烧豆角	HTTP Error 400: Bad Request
+x002	糖醋排骨	HTTP Error 400: Bad Request
+x003	洋葱炒肉	HTTP Error 429: Too Many Requests
+x004	芹菜炒肉	HTTP Error 400: Bad Request
+x005	红烧鸡腿	HTTP Error 429: Too Many Requests
+x006	素炒西葫芦	HTTP Error 400: Bad Request
+x007	番茄豆腐汤	HTTP Error 429: Too Many Requests
+x008	火腿炒蛋	HTTP Error 400: Bad Request
+x009	胡萝卜炒蛋	HTTP Error 429: Too Many Requests
+x010	蒜蓉蒸茄子	HTTP Error 400: Bad Request
+x011	红烧冬瓜	HTTP Error 400: Bad Request
