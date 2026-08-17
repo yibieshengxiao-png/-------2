@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>冠之今天吃什么 🍳</title>
+    <script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
     <style>
         :root {
             --green: #4CAF50; --green-bg: #E8F5E9; --green-border: #81C784;
@@ -472,7 +473,7 @@
                 <div class="filter-chip" data-filter="yellow">⚠️ 食材不够</div>
                 <div class="filter-chip" data-filter="red">❌ 缺食材</div>
                 <div class="filter-chip" data-filter="lowcal">🔥 低热量</div>
-                <div class="filter-chip" data-filter="quick">⚡ 快手菜</div>
+                <div class="filter-chip" data-filter="quick">⚡ ���手菜</div>
                 <div class="filter-chip" data-filter="diet">💪 减肥友好</div>
             </div>
             <div id="recipeNoMatch" style="display:none;"></div>
@@ -580,7 +581,7 @@
     const ING_MAP = {};
     INGREDIENTS.forEach(i => { ING_MAP[i.name] = i; });
 
-    // 渲染图标：有图片用 <img>，否则回退到 emoji 字符
+    // 渲染图标：有图片用 <img>���否则回退到 emoji 字符
     function renderIcon(item, cls) {
         if (item && item.icon) {
             return `<img class="${cls}" src="${item.icon}" alt="${item.name || ''}" loading="lazy">`;
